@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-photography.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Dec 2020 17:58:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&amp;display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+
+	<!-- Photography Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/photography/photography.css" type="text/css" />
+	<link rel="stylesheet" href="demos/photography/css/photography-addons.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="demos/photography/css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors147b.css?color=c85e51" type="text/css" />
+
+	<link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+
+	<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+	<!-- Document Title
+	============================================= -->
+	<title>Event</title>
+
+</head>
+
+<body class="stretched side-header side-header-right open-header">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<div class="co-name d-none d-lg-block center"><img src="demos/photography/images/logooooo.jpg" alt="Canvas Logo"></div>
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="dark">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row align-items-lg-start">
+
+						<!-- <div class="header-title d-none d-lg-block mt-4">Canvas Photography</div> -->
+
+						<!-- Logo
+							============================================= -->
+						<div id="logo" class="d-block d-lg-none d-xl-block">
+							<a href="index.html" class="standard-logo" data-dark-logo="demos/photography/images/logooooo.jpg"><img src="demos/photography/images/logooooo.jpg" alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="demos/photography/images/logooooo.jpg"><img src="demos/photography/images/logooooo.jpg" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link" href="index.html"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="about.html"><div>About us</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="service.html"><div>Our Services</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="portfolio.html"><div>portfolio</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="Artist.html"><div>Artist Management</div></a></li>
+								<!-- <li class="menu-item"><a class="menu-link" href="blogs.html"><div>Blogs</div></a></li> -->
+								<li class="menu-item"><a class="menu-link" href="contact.html"><div>Contacts</div></a></li>
+								
+							</ul>
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+
+			<div id="header-trigger" class="d-none d-lg-block"><i class="icon-line-menu"></i><i class="icon-line-cross"></i></div>
+
+		</header><!-- #header end -->
+
+
+		<!-- Slider
+		============================================= -->
+		<!-- <section id="slider" class="slider-element swiper_wrapper min-vh-75 min-vh-md-100" data-loop="true" data-speed="1200" data-autoplay="5000">
+			<div class="slider-inner">
+
+				<div class="swiper-container swiper-parent">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-text">
+									<h3>Drinking Water</h3>
+									<span>Summer Collection</span>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/photography/images/slider/photography&videography.jpeg');"></div>
+						</div>
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-text">
+									<h3>FireWorks Focus</h3>
+									<span>Function Pictures</span>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/photography/images/slider/film\ production.jpeg');"></div>
+						</div>
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-text">
+									<h3>Fashion Photography</h3>
+									<span>Black &amp; White Collections</span>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/photography/images/slider/decoration.jpeg');"></div>
+						</div>
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-text">
+									<h3>Showing Camera</h3>
+									<span>Dark Collections</span>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/photography/images/slider/eventmanagment.jpeg');"></div>
+						</div>
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-text">
+									<h3>Model Photography</h3>
+									<span>Fashion Collections</span>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/photography/images/slider/corporate.jpeg');"></div>
+						</div>
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-text">
+									<h3>Taking Snap</h3>
+									<span>Nature Collections</span>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/photography/images/slider/decoration.jpeg');"></div>
+						</div>
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-text">
+									<h3>Taking Snap</h3>
+									<span>Nature Collections</span>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/photography/images/slider/eventplanner.jpeg');"></div>
+						</div>
+					</div>
+					<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+					<div class="slide-number"><div class="slide-number-current"></div><span></span><div class="slide-number-total"></div></div>
+				</div>
+
+				<a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><i class="icon-line-grid"></i></a>
+
+			</div>
+		</section> -->
+        <!-- #Slider End -->
+
+
+        <style>
+			.about-us{
+				background-color:#282828 ;
+				color: white;
+               
+			}
+			.about-us h1{
+				color: white;
+				font-weight: 800;
+			}
+			.about-us p{
+				font-family: 'Courier New', Courier, monospace
+			}
+		</style>
+
+		<!-- About Us section -->
+
+		<section class="about-us">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<center><h1 style=" margin-top: 165px;">ABOUT US</h1></center>
+						<p>Shree Ganraj Production Event & Entertainment is a one of the India's leading firms base in New Delhi founded in 2021 by Rajesh Verma(owner) & Rohit byan(co-owner) company with a focus in Corporate Events, Business Events, Corporate Parties, Fashion Show, Celebrity Events Management, Wedding Eventmanagement, Party Events, Birthday Events, Decoration
+							Films, Tv-serial, Shortfilms, Webseries, Advertising, Video Album, Music Album, Printshoots, VFX Editing, Casting-movies, Tv-Serial, Ads, Modelling etc.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+        <!-- <div class="section dark topmargin-lg mb-0 clearfix" style="padding: 100px 0;">
+           <center> <h1>Our Team</h1> </center>
+            <div class="container clearfix">
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-4 ">
+                        <img src="demos/photography/images/team/Rajesh Verma Founder.jpeg" alt="img-author" style="border: 8px solid #333;">
+                    </div>
+                    <div class="col-lg-4 col-md-4 ">
+                        <img src="demos/photography/images/team/Rohit Byan Co-founder.jpeg" alt="img-author" style="border: 8px solid #333;">
+                    </div>
+                    <div class="col-lg-4 col-md-4 ">
+                        <img src="demos/photography/images/team/Lalu  Gupta Photographer & Videographer.jpeg" alt="img-author" style="border: 8px solid #333;">
+                    </div>
+                </div>
+            </div>
+        </div>   -->
+
+
+		
+		<!-- <div class="container d-flex justify-content-center">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card p-3 py-4 mt-5 mb-5">
+						<div class="text-center"> <img src="demos/photography/images/team/Rajesh Verma Founder.jpeg" width="100" class="rounded-circle">
+							<h3 class="mt-2">Maria Smantha</h3> <span class="mt-1 clearfix">Android Developer</span> <small class="mt-4">I am an android developer working at google Inc at california,USA</small>
+							<div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button> <button class="neo-button"><i class="fa fa-google fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card p-3 py-4 mt-5">
+						<div class="text-center"> <img src="demos/photography/images/team/Rohit Byan Co-founder.jpeg" width="100" class="rounded-circle">
+							<h3 class="mt-2">Simona Disa</h3> <span class="mt-1 clearfix">Graphics Designer</span> <small class="mt-4">I am an Graphics Designer working at google Inc at california,USA</small>
+							<div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button> <button class="neo-button"><i class="fa fa-google fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card p-3 py-4 mt-5">
+						<div class="text-center"> <img src="demos/photography/images/team/Lalu  Gupta Photographer & Videographer.jpeg" width="100" class="rounded-circle">
+							<h3 class="mt-2">John Smith</h3> <span class="mt-1 clearfix">Java Architect</span> <small class="mt-4">I am an Java Architect working at google Inc at california,USA</small>
+							<div class="social-buttons mt-5"> <button class="neo-button"><i class="fa fa-facebook fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-linkedin fa-1x"></i></button> <button class="neo-button"><i class="fa fa-google fa-1x"></i> </button> <button class="neo-button"><i class="fa fa-youtube fa-1x"></i> </button> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		
+
+		<!-- <div class="py-5 text-center text-info background-info" style="">
+			<div class="container">
+				<div class="row">
+					<div class="mx-auto col-md-12">
+						<h1 class="mb-3" contenteditable="true">Meet our team</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" alt="Card image cap" width="200" src="demos/photography/images/team/Rajesh Verma Founder.jpeg">
+						<h4> <b>Rajesh Verma</b> </h4>
+						<p class="mb-0">CEO and founder</p>
+					</div>
+					<div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="demos/photography/images/team/Rohit Byan Co-founder.jpeg" alt="Card image cap" width="200">
+						<h4> <b>Rohit Byan </b> </h4>
+						<p class="mb-0">Co-founder</p>
+					</div>
+					<div class="col-lg-4 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="demos/photography/images/team/Lalu  Gupta Photographer & Videographer.jpeg" width="200">
+						<h4> <b>Lalu  Gupta </b> </h4>
+						<p class="mb-0">Photographer & Videographer</p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		
+		<!-- <style>
+			.background-info {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(&quot;https://res.cloudinary.com/dxfq3iotg/image/upload/v1567672484/Untitled_design_7.png&quot;);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat
+}
+		</style> -->
+
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="demos/photography/images/team/Lalu__Gupta_Photographer___Videographer-removebg-preview (1).png">
+							<!-- <ul class="social">
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-twitter"></a></li>
+								<li><a href="#" class="icon-instagram"></a></li>
+								<li><a href="#" class="icon-envelope2"></a></li>
+							</ul> -->
+						</div>
+						<div class="team-content">
+							<h3 class="title">Lalu Gupta</h3>
+							<span class="post">Photographer Videographer</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="demos/photography/images/team/Rajesh_Verma_Founder-removebg-preview (1).png">
+							<!-- <ul class="social">
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-twitter"></a></li>
+								<li><a href="#" class="icon-instagram"></a></li>
+								<li><a href="#" class="icon-envelope2"></a></li>
+							</ul> -->
+						</div>
+						<div class="team-content">
+							<h3 class="title">Rajesh Verma</h3>
+							<span class="post">Founder</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="demos/photography/images/team/Rohit_Byan_Co-founder2-removebg-preview (1).png">
+							<!-- <ul class="social">
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-twitter"></a></li>
+								<li><a href="#" class="icon-instagram"></a></li>
+								<li><a href="#" class="icon-envelope2"></a></li>
+							</ul> -->
+						</div>
+						<div class="team-content">
+							<h3 class="title">Rohit Byan</h3>
+							<span class="post">Co-founder</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="demos/photography/images/team/zafar2.png">
+							<!-- <ul class="social">
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-twitter"></a></li>
+								<li><a href="#" class="icon-instagram"></a></li>
+								<li><a href="#" class="icon-envelope2"></a></li>
+							</ul> -->
+						</div>
+						<div class="team-content">
+							<h3 class="title">Zafar Irshad</h3>
+							<span class="post">Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="demos/photography/images/team/WhatsApp Image 2021-03-31 at 12.37.26 PM.jpg">
+							<!-- <ul class="social">
+								<li><a href="#" class="icon-facebook"></a></li>
+								<li><a href="#" class="icon-twitter"></a></li>
+								<li><a href="#" class="icon-instagram"></a></li>
+								<li><a href="#" class="icon-envelope2"></a></li>
+							</ul> -->
+						</div>
+						<div class="team-content">
+							<h3 class="title">Taniya Chamoli</h3>
+							<span class="post">Content writer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark border-0 clearfix">
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights" style="background: #222">
+				<div class="container clearfix">
+
+					<div class="w-100 text-center topmargin-sm">
+						<!-- <p class="mb-3">&copy; Canvas Inc. 2020. All Rights Reserved.</p> -->
+						<a href="https://www.facebook.com/ShreeGanrajProduction/" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/shreeganrajproduction" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-twitter">
+							<i class="icon-linkedin"></i>
+							<i class="icon-linkedin"></i>
+						</a>
+						<a href="https://www.instagram.com/ShreeGanrajProduction/" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-instagram">
+							<i class="icon-instagram"></i>
+							<i class="icon-instagram"></i>
+						</a>
+						<a href="mailto:Shreeganrajproduction@gmail.com" class="social-icon inline-block si-small si-borderless si-rounded si-gplus">
+							<i class="icon-envelope2"></i>
+							<i class="icon-envelope2"></i>
+						</a>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+	<script src="js/plugins.imagesloaded.js"></script>
+	<script src="demos/photography/js/photography-addons.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+		(function() {
+			var support = { transitions: Modernizr.csstransitions },
+				// transition end event name
+				transEndEventNames = { 'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend' },
+				transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+				onEndTransition = function( el, callback ) {
+					var onEndCallbackFn = function( ev ) {
+						if( support.transitions ) {
+							if( ev.target != this ) return;
+							this.removeEventListener( transEndEventName, onEndCallbackFn );
+						}
+						if( callback && typeof callback === 'function' ) { callback.call(this); }
+					};
+					if( support.transitions ) {
+						el.addEventListener( transEndEventName, onEndCallbackFn );
+					}
+					else {
+						onEndCallbackFn();
+					}
+				};
+
+			$('.grid-container').one( 'layoutComplete', function(){
+				new GridFx(document.querySelector('.grid'), {
+					imgPosition : {
+						x : -0.5,
+						y : 1
+					},
+					onOpenItem : function(instance, item) {
+						instance.items.forEach(function(el) {
+							if(item != el) {
+								var delay = Math.floor(Math.random() * 50);
+								el.style.WebkitTransition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), -webkit-transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+								el.style.transition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+								el.style.WebkitTransform = 'scale3d(0.1,0.1,1)';
+								el.style.transform = 'scale3d(0.1,0.1,1)';
+								el.style.opacity = 0;
+							}
+						});
+					},
+					onCloseItem : function(instance, item) {
+						instance.items.forEach(function(el) {
+							if(item != el) {
+								el.style.WebkitTransition = 'opacity .4s, -webkit-transform .4s';
+								el.style.transition = 'opacity .4s, transform .4s';
+								el.style.WebkitTransform = 'scale3d(1,1,1)';
+								el.style.transform = 'scale3d(1,1,1)';
+								el.style.opacity = 1;
+
+								onEndTransition(el, function() {
+									el.style.transition = 'none';
+									el.style.WebkitTransform = 'none';
+								});
+							}
+						});
+					}
+				});
+			});
+
+		})();
+
+	</script>
+
+</body>
+
+<!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-photography.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Dec 2020 18:01:52 GMT -->
+</html>
+
+<!-- <style>
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: #eee
+}
+
+.card {
+    border-radius: 20px;
+    background: #eeeeee;
+
+    border: none
+}
+
+.card img {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+}
+
+.neo-button {
+    width: 40px;
+    height: 40px;
+    outline: 0 !important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+}
+
+.neo-button:active {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
+}
+
+.fa-facebook {
+    color: #3b5998
+}
+
+.fa-linkedin {
+    color: #0077b5
+}
+
+.fa-google {
+    color: #dc4e41
+}
+
+.fa-youtube {
+    color: #cd201f
+}
+
+.fa-twitter {
+    color: #55acee
+}
+</style> -->
+
+<style>
+	.our-team{
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover{
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.our-team .pic{
+    overflow: hidden;
+    position: relative;
+}
+.our-team .pic:before,
+.our-team .pic:after{
+    content: "";
+    width: 200%;
+    height: 80%;
+    background: rgba(38,37,37,0.8);
+    position: absolute;
+    top: -100%;
+    left: -4%;
+    transform: rotate(45deg);
+    transition: all 0.5s ease 0s;
+}
+.our-team .pic:after{
+    background: rgba(8,75,77,0.8);
+    top: auto;
+    left: auto;
+    bottom: -100%;
+    right: -4%;
+}
+.our-team:hover .pic:before{ top: 0; }
+.our-team:hover .pic:after{ bottom: 0; }
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0.3s;
+}
+.our-team:hover .social{ opacity: 1; }
+.our-team .social li{ display: inline-block; }
+.our-team .social li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #db162f;
+    border-radius: 0 20px 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover:after{ transform: rotate(180deg); }
+.our-team .team-content{ padding: 20px; }
+.our-team .title{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #047168;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.our-team .post{
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+</style>
