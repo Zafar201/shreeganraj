@@ -7037,7 +7037,8 @@ button.bg-dark:focus {
     display: inline-block !important;
   }
   .d-lg-block {
-    display: block !important;
+    display: block !important;\
+    background-color: black;
   }
   .d-lg-table {
     display: table !important;

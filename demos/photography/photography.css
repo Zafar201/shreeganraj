@@ -10,7 +10,7 @@ body,
 @media (min-width: 992px) {
 
 	.co-name img {
-		position: absolute;
+		/* position: absolute; */
 		top: 0;
 		left: 40px;
 		width: auto;

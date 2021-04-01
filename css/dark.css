@@ -102,8 +102,9 @@ body #side-panel.dark {
 }
 
 .dark #header-wrap {
-	background-color: #333;
-}
+	background-color: black;background: linear-gradient( 
+		0deg
+		 ,#000000 8%,#292929 89%);
 
 @media (min-width: 992px) {
 

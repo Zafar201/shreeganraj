@@ -52,7 +52,7 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<div class="co-name d-none d-lg-block center"><img src="demos/photography/images/logooooo.jpg" alt="Canvas Logo"></div>
+		<div class="co-name d-none d-lg-block center"><img style="border-radius: 50%;" src="demos/photography/images/logooooo.jpg" alt="Canvas Logo"></div>
 
 		<!-- Header
 		============================================= -->
@@ -80,11 +80,12 @@
 							<ul class="menu-container">
 								<li class="menu-item current"><a class="menu-link" href="index.html"><div>Home</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="about.html"><div>About us</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="company.html"><div>The Company</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="service.html"><div>Our Services</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="portfolio.html"><div>portfolio</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="portfolio.html"><div>Our Patners</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="Artist.html"><div>Artist Management</div></a></li>
 								<!-- <li class="menu-item"><a class="menu-link" href="blogs.html"><div>Blogs</div></a></li> -->
-								<li class="menu-item"><a class="menu-link" href="contact.html"><div>Contacts</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="contact.html"><div>Connect Us</div></a></li>
 								
 							</ul>
 						</nav><!-- #primary-menu end -->
@@ -214,16 +215,29 @@
         <!-- Services section -->
         <div class="wrapper">
             <div class="inner">
-                <form id="submit-form" action="">
-                    <h3>JOINING OUR AGENCY</h3>
+                <form id="submit-form" method="POST" action="https://formspree.io/f/xwkakejz">
+                    <h3>Lets Connect</h3>
                     <!-- <p>If you are a football player from Zimbabwe interested in utilizing our expert services which includes representation and links to foreign clubs, please get in touch below and let’s discuss.</p> -->
-                    <label class="form-group">
+					<label class="form-group">
+					<select style="color: black;">
+					
+						<option inputmode="text" value="0">Select category:</option>
+						<option  inputmode="text" name="Business" value="1">Business</option>
+						<option name="Work" value="2">Work</option>
+						<option name="Press" value="3">Press</option>
+						<option name="Creative" value="4">Creative</option>
+						<option name="Marketing" value="5">Marketing</option>
+						
+					  </select>
+					</label>
+					
+					<label class="form-group">
                         <label>Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
                     </label>
                     <label class="form-group">
-                        <label>Addresss</label>
-                        <input type="text" class="form-control" id="name" placeholder="Addresss" name="Addresss">
+                        <label>City</label>
+                        <input type="text" class="form-control" id="name" placeholder="City" name="City">
                     </label>
                     <label class="form-group">
                         <label>Email</label>
@@ -246,9 +260,31 @@
                         <i class="zmdi zmdi-arrow-right"></i>
                     </button>
                 </form>
+          
+				  
+			<a href="https://wa.me/message/7Y26WYNQQPCXE1"><img style="height: 43px;" src="demos/photography/images/slider/whatsapp.png" alt=""> <h4 style="color: white;">Tap to whatsapp</h4>  </a>
+
+			<h4 style="color: white;margin-top: 10px;">Email:      shreeganrajproduction@gmail.com</h4>
+		    
+		
+		
+			
+		</div>
             </div>
         </div>
 
+		<section class="map">
+           <div class="container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.447134698125!2d77.16230841440759!3d28.646327590208703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03ef11ca5c81%3A0x46678a9a1fe237b5!2sShree%20Ganraj%20Production!5e0!3m2!1sen!2sin!4v1617296086873!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		   </div>
+		</section>
+		
+         <style>
+			 .map{
+				 width: 100%;
+				
+			 }
+		 </style>
 
 
 
@@ -264,7 +300,7 @@
 			<div id="copyrights" style="background: #222">
 				<div class="container clearfix">
 
-					<	<div class="w-100 text-center topmargin-sm">
+						<div class="w-100 text-center topmargin-sm">
 						<!-- <p class="mb-3">&copy; Canvas Inc. 2020. All Rights Reserved.</p> -->
 						<a href="https://www.facebook.com/ShreeGanrajProduction/" target="_blank" class="social-icon inline-block si-small si-borderless si-rounded si-facebook">
 							<i class="icon-facebook"></i>
@@ -307,23 +343,25 @@
 
 	<script>
 
-     $("#submit-form").submit((e)=>{
-        e.preventDefault()
-        $.ajax({
-            url:"https://script.google.com/macros/s/AKfycbzfJk6M0VwodjnWgkTzFsHQiLaIdGN2BEaFkOgVFUI3uDz64pxHD4YVGNjaMROPy86p2g/exec",
-            data:$("#submit-form").serialize(),
-            method:"post",
-            success:function (response){
-                alert("Form submitted successfully")
-                window.location.reload()
-                //window.location.href="https://google.com"
-            },
-            error:function (err){
-                alert("Something Error")
 
-            }
-        })
-    })
+
+    //  $("#submit-form").submit((e)=>{
+    //     e.preventDefault()
+    //     $.ajax({
+    //         url:"https://script.google.com/macros/s/AKfycbxf7hnqCjdTxJSBSW5AFpJNwTR7gd7DI6QYqTZGzAZk6117WUmFBVYbKns2v7QbD5_L/exec",
+    //         data:$("#submit-form").serialize(),
+    //         method:"post",
+    //         success:function (response){
+    //             alert("Form submitted successfully")
+    //             window.location.reload()
+    //             //window.location.href="https://google.com"
+    //         },
+    //         error:function (err){
+    //             alert("Something Error")
+
+    //         }
+    //     })
+    // })
 
 
 
