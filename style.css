@@ -2873,6 +2873,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-color: white;
 }
 .svg-trigger path {
   fill: none;
