@@ -2921,7 +2921,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   display: block;
   line-height: 22px;
   padding: 14px 5px;
-  color: #444;
+  color: #ffc107;
   font-weight: 700;
   font-size: 0.8125rem;
   letter-spacing: 1px;
@@ -11247,7 +11247,7 @@ label {
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #555;
+  color: white;
   margin-bottom: 10px;
   cursor: pointer;
 }
@@ -14370,4 +14370,19 @@ label.radio {
 }
 #copyrights{
   background-color: black;
+}
+.icon-facebook{
+  background-color: #ffb400;
+}
+ .icon-linkedin {
+  background-color: #ffb400;
+}
+.icon-instagram{
+  background-color: #ffb400;
+}
+.icon-envelope2{
+        background-color: #ffb400;
+}
+.icon-youtube{
+  background-color: #ffb400;
 }
